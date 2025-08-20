@@ -152,11 +152,8 @@ function renderSkills(skills) {
     
     const skillCategories = [
         { name: 'Languages', key: 'languages' },
-        { name: 'Machine Learning', key: 'ml' },
-        { name: 'MLOps & Cloud', key: 'mlops' },
-        { name: 'Cloud Platforms', key: 'cloud' },
-        { name: 'Data & Analytics', key: 'data' },
-        { name: 'Visualization', key: 'viz' }
+        { name: 'Frameworks', key: 'frameworks' },
+        { name: 'Tools', key: 'tools' }
     ];
     
     skillsContainer.innerHTML = skillCategories.map(category => {
