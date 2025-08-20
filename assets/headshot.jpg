@@ -1,0 +1,18 @@
+# Placeholder for headshot.jpg
+
+This is a placeholder file. Replace this with your professional headshot image.
+
+Recommended specifications:
+- Format: JPG or PNG
+- Size: 400x400 pixels (square aspect ratio)
+- High quality, professional appearance
+- Good lighting and clear background
+- File size: < 200KB for optimal loading performance
+
+To replace:
+1. Save your headshot image as 'headshot.jpg' in this directory
+2. Delete this placeholder file
+3. The website will automatically display your photo
+
+Alternative: You can also use headshot.png if you prefer PNG format.
+Just update the image src in index.html accordingly. 

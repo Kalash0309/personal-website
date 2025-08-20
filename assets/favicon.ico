@@ -1,0 +1,29 @@
+# Placeholder for favicon.ico
+
+This is a placeholder for your website's favicon (the small icon that appears in browser tabs).
+
+To create your favicon:
+
+## Option 1: Online Generator
+1. Visit https://favicon.io/favicon-generator/
+2. Use text "KK" with a simple background color (e.g., #3b82f6)
+3. Download the generated favicon.ico file
+4. Replace this file with the downloaded favicon.ico
+
+## Option 2: From Image
+1. Create or find a 32x32 pixel square image
+2. Use an online converter like https://convertio.co/png-ico/
+3. Save as favicon.ico and replace this file
+
+## Option 3: Simple Text Favicon
+1. Visit https://favicon.io/favicon-generator/
+2. Use text: "K"
+3. Font: Open Sans
+4. Background: Blue (#3b82f6)  
+5. Text Color: White (#ffffff)
+
+The favicon will automatically appear in:
+- Browser tabs
+- Bookmarks
+- Browser history
+- Desktop shortcuts 
