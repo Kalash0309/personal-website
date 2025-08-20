@@ -11,74 +11,68 @@
   },
   "experience": [
     {
-      "company": "Technology Company",
-      "role": "Machine Learning Engineer",
-      "start": "2023",
+      "company": "Skan.ai",
+      "role": "Data Scientist",
+      "location": "Bangalore, IN",
+      "start": "July 2024",
       "end": "Present",
       "highlights": [
-        "Developed and deployed ML models serving production traffic",
-        "Improved model performance through feature engineering and optimization",
-        "Built end-to-end MLOps pipelines for automated deployment",
-        "Collaborated with cross-functional teams on AI initiatives"
+        "Designed a unique-screen identification pipeline that clusters structurally similar webpages while remaining agnostic to instance and tabular data, auto-classifying pages in real time and eliminating screen-level noise",
+        "Delivered an Outlook-email understanding pipeline: fine-tuned open-source LLMs (Qwen, Granite, Llama, HF checkpoints) via Ollama and engineered prompts for intent mining and entity extraction",
+        "Managed end-to-end delivery from LLM setup, docker image generation for on-prem client gateway to algorithm processing, and db persistence",
+        "Implemented hierarchical, unsupervised clustering of emails by intent at several business-relevant granular levels, focusing on action verbs, domain keywords and instance details",
+        "Built a classification pipeline for segregating process and non-process related emails for enterprise clients by combining a hybrid approach (topic-modeling + One-Class SVM + rule-based NLP)"
       ],
-      "stack": ["Python", "PyTorch", "Docker", "Kubernetes", "AWS", "MLflow"]
+      "stack": ["Python", "PyTorch", "LLMs", "Docker", "Ollama", "NLP", "One-Class SVM"]
     },
     {
-      "company": "Previous Organization",
-      "role": "Data Scientist",
-      "start": "2021",
-      "end": "2023",
+      "company": "Skan.ai",
+      "role": "Data Science Intern",
+      "location": "Bangalore, IN",
+      "start": "May 2023",
+      "end": "July 2023",
       "highlights": [
-        "Built predictive models for business optimization",
-        "Analyzed large datasets to extract actionable insights",
-        "Developed automated reporting and monitoring systems"
+        "Benchmarked capabilities and limitations of commercial Large Language Models (LLMs) for large-scale synthetic-data generation to bolster downstream model training",
+        "Led training and fine-tuning of LLMs with transfer learning for event grouping and task identification",
+        "Delivered a production-grade prototype slated for client deployment"
       ],
-      "stack": ["Python", "scikit-learn", "SQL", "Apache Spark", "Tableau"]
+      "stack": ["Python", "LLMs", "Transfer Learning", "PyTorch", "TensorFlow"]
     }
   ],
   "projects": [
     {
-      "name": "ML Pipeline Automation",
-      "description": "End-to-end machine learning pipeline with automated training, validation, and deployment capabilities.",
-      "impact": "Reduced model deployment time from weeks to hours",
-      "link": "https://github.com/Kalash0309",
-      "tech": ["Python", "MLflow", "Docker", "Kubernetes"]
+      "name": "Machine Unlearning — Forgetting Images",
+      "period": "Jan 2024 – Apr 2024",
+      "description": "Implemented, hypothesized and benchmarked multiple image based machine-unlearning algorithms (fine-tuning resets, noise-injection fast unlearning, layer re-initialisation) to unlearn a dataset, remove biased or sensitive samples from trained models, enhancing responsible practices and ethical deployment.",
+      "impact": "Built a biometric facial-recognition demo and evaluated unlearning strategies on real data, balancing accuracy vs. unlearning latency",
+      "tech": ["PyTorch", "Python", "Transformers", "Streamlit"]
     },
     {
-      "name": "NLP Text Classification System",
-      "description": "Production-ready text classification system using transformer models for document processing.",
-      "impact": "Achieved 95% accuracy on business document classification",
-      "link": "https://github.com/Kalash0309",
-      "tech": ["PyTorch", "Transformers", "FastAPI", "PostgreSQL"]
+      "name": "Bayesian Unlearning — Learning to Forget",
+      "period": "Aug 2023 – Nov 2023",
+      "description": "Investigated Bayesian Unlearning methods for probabilistic modeling (Laplace approximation, MCMC, variational inference, other mathematical approximations) and enabling selective data removal without full retraining.",
+      "impact": "Derived a closed-form unlearning update for logistic regression and explored extensions to neural networks, charting future research directions",
+      "tech": ["Python", "PyTorch", "TensorFlow", "Streamlit"]
     },
     {
-      "name": "Time Series Forecasting Platform",
-      "description": "Scalable forecasting platform supporting multiple algorithms with automated model selection.",
-      "impact": "Improved forecast accuracy by 30% over baseline methods",
-      "link": null,
-      "tech": ["Prophet", "LSTM", "Streamlit", "Apache Airflow"]
+      "name": "Reputation & Conflict Propagation in Signed Networks",
+      "period": "Mar 2022 – Apr 2023",
+      "description": "Analysed a Signed Reddit-hyperlink network to define trustworthiness scores across 86 edge attributes and formulated a hate factor per post.",
+      "impact": "Applied Random Forest and LSTM models on centrality-feature vectors to predict conflict propagation",
+      "tech": ["Python", "Scikit-learn", "NetworkX"]
     }
   ],
   "skills": {
-    "languages": ["Python", "SQL", "R", "JavaScript"],
-    "ml": ["PyTorch", "TensorFlow", "scikit-learn", "Transformers", "XGBoost"],
-    "mlops": ["Docker", "Kubernetes", "MLflow", "Apache Airflow", "DVC"],
-    "cloud": ["AWS", "GCP", "Azure"],
-    "data": ["PostgreSQL", "MongoDB", "Apache Spark", "Pandas", "NumPy"],
-    "viz": ["Matplotlib", "Seaborn", "Plotly", "Tableau", "Streamlit"]
+    "languages": ["Python", "C++", "C", "SQL", "MATLAB", "HTML/CSS", "Assembly", "Java (basic)"],
+    "frameworks": ["PyTorch", "TensorFlow", "Keras", "NumPy", "Pandas", "Scikit-learn", "Matplotlib", "Streamlit", "OpenAI", "Ollama", "LTSpice", "Transformers"],
+    "tools": ["Docker", "Git/GitHub", "Postgres", "MongoDB", "Microsoft Office", "Autodesk Inventor/Fusion", "Huggingface", "LaTeX"]
   },
   "education": [
     {
-      "degree": "Master's Degree in Technology/Engineering",
-      "school": "Indian Institute of Technology or Similar",
-      "year": "2020",
-      "details": "Specialization in relevant field"
-    },
-    {
-      "degree": "Bachelor's Degree in Engineering",
-      "school": "University",
-      "year": "2018",
-      "details": "Computer Science or related field"
+      "degree": "B.Tech. in Computer Science and Engineering",
+      "school": "Indian Institute of Technology, Gandhinagar (IITGN)",
+      "year": "Nov. 2020 – June 2024",
+      "details": "CPI 9.08/10"
     }
   ],
   "certifications": [
@@ -87,8 +81,14 @@
     "Deep Learning Specialization"
   ],
   "awards": [
-    "Academic Excellence Awards",
-    "Project Recognition",
-    "Professional Achievement Recognition"
+    "Teaching Assistant — Machine Learning (ES335), IITGN (Jan 2024 – Apr 2024)",
+    "Captain, Women's Aquatics Team, IITGN (Aug 2022 – Apr 2023)",
+    "Student Representative, Senate Academic Programmes Committee, IITGN (Aug 2022 – Jul 2023)",
+    "Gold Medal for Overall Outstanding Performance in Sports, Graduating Class of 2024",
+    "Gold Medal for Outstanding Performance in Aquatics, Graduating Class of 2024",
+    "Dean's List — Semesters II, III, VI & VII",
+    "Bronze Medal, 4 × 50 m Women's Relay — Inter IIT Aquatics Meet 2023",
+    "Special Advisor, Coordinator - Student Academic Council, IITGN",
+    "NTSE Scholarship 2018, Government of India"
   ]
 } 
