@@ -34,7 +34,7 @@ Before deploying, ensure:
 # Create new repository on GitHub (e.g., 'kalash-website')
 git init
 git add .
-git commit -m "Initial commit - Personal website"
+git commit -m "Initial commit - Personal website with dark theme default"
 git remote add origin https://github.com/YOUR_USERNAME/kalash-website.git
 git branch -M main
 git push -u origin main
@@ -175,10 +175,10 @@ sudo ufw enable
 ### Step 2: File Upload
 ```bash
 # Upload files via SCP
-scp -r ./website/ user@your-server.com:/var/www/html/
+scp -r ./personal_website/ user@your-server.com:/var/www/html/
 
 # Or use rsync
-rsync -avz ./website/ user@your-server.com:/var/www/html/
+rsync -avz ./personal_website/ user@your-server.com:/var/www/html/
 ```
 
 ### Step 3: Nginx Configuration
@@ -366,6 +366,7 @@ Pre-launch:
 - [ ] Cross-browser testing completed
 - [ ] Mobile responsiveness verified
 - [ ] Performance audit passed (Lighthouse score >90)
+- [ ] Dark theme loads correctly by default
 
 Post-launch:
 - [ ] Submit to Google Search Console
@@ -386,4 +387,4 @@ Having deployment issues?
 
 ---
 
-**🎉 Congratulations! Your website is now live and ready to showcase your ML engineering expertise to the world.** 
+**🎉 Congratulations! Your website is now live with dark theme as default and ready to showcase your ML engineering expertise to the world.** 

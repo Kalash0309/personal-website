@@ -13,8 +13,8 @@ function initTheme() {
     const themeToggle = document.getElementById('themeToggle');
     const themeIcon = document.querySelector('.theme-icon');
     
-    // Check for saved theme preference or default to 'light'
-    const currentTheme = localStorage.getItem('theme') || 'light';
+    // Check for saved theme preference or default to 'dark'
+    const currentTheme = localStorage.getItem('theme') || 'dark';
     document.documentElement.setAttribute('data-theme', currentTheme);
     updateThemeIcon(currentTheme, themeIcon);
     
@@ -154,6 +154,7 @@ function renderSkills(skills) {
         { name: 'Languages', key: 'languages' },
         { name: 'Machine Learning', key: 'ml' },
         { name: 'MLOps & Cloud', key: 'mlops' },
+        { name: 'Cloud Platforms', key: 'cloud' },
         { name: 'Data & Analytics', key: 'data' },
         { name: 'Visualization', key: 'viz' }
     ];
@@ -216,56 +217,58 @@ function renderFallbackContent() {
     const sampleExperience = [
         {
             role: "Machine Learning Engineer",
-            company: "Tech Company",
+            company: "Technology Company",
             start: "2023",
             end: "Present",
             highlights: [
-                "Built and deployed ML models for production systems",
-                "Improved model accuracy by 25% through feature engineering",
-                "Implemented MLOps pipelines for automated training and deployment"
+                "Developed and deployed ML models serving production traffic",
+                "Improved model performance through feature engineering and optimization",
+                "Built end-to-end MLOps pipelines for automated deployment",
+                "Collaborated with cross-functional teams on AI initiatives"
             ],
-            stack: ["Python", "PyTorch", "Docker", "MLflow", "AWS"]
+            stack: ["Python", "PyTorch", "Docker", "Kubernetes", "AWS", "MLflow"]
         }
     ];
     
     // Sample projects data
     const sampleProjects = [
         {
-            name: "NLP Sentiment Analysis System",
-            description: "End-to-end sentiment analysis pipeline using transformer models",
-            impact: "95% accuracy on customer feedback classification",
+            name: "ML Pipeline Automation",
+            description: "End-to-end machine learning pipeline with automated training, validation, and deployment capabilities.",
+            impact: "Reduced model deployment time from weeks to hours",
             link: "https://github.com/Kalash0309"
         },
         {
-            name: "ML Model Optimization",
-            description: "Performance optimization for large-scale ML models",
-            impact: "50% reduction in inference time",
+            name: "NLP Text Classification System",
+            description: "Production-ready text classification system using transformer models for document processing.",
+            impact: "Achieved 95% accuracy on business document classification",
             link: null
         }
     ];
     
     // Sample skills data
     const sampleSkills = {
-        languages: ["Python", "SQL", "R"],
-        ml: ["PyTorch", "scikit-learn", "Transformers", "TensorFlow"],
-        mlops: ["Docker", "MLflow", "Kubernetes", "AWS", "GCP"],
-        data: ["PostgreSQL", "Pandas", "NumPy", "Apache Spark"],
-        viz: ["Matplotlib", "Seaborn", "Plotly", "Tableau"]
+        languages: ["Python", "SQL", "R", "JavaScript"],
+        ml: ["PyTorch", "TensorFlow", "scikit-learn", "Transformers", "XGBoost"],
+        mlops: ["Docker", "Kubernetes", "MLflow", "Apache Airflow", "DVC"],
+        cloud: ["AWS", "GCP", "Azure"],
+        data: ["PostgreSQL", "MongoDB", "Apache Spark", "Pandas", "NumPy"],
+        viz: ["Matplotlib", "Seaborn", "Plotly", "Tableau", "Streamlit"]
     };
     
     // Sample education data
     const sampleEducation = [
         {
-            degree: "Master of Science in Machine Learning",
-            school: "University Name",
-            year: "2022"
+            degree: "Master's Degree in Technology/Engineering",
+            school: "Indian Institute of Technology or Similar",
+            year: "2020"
         }
     ];
     
     const sampleAwards = [
-        "Best ML Project Award",
-        "Dean's List",
-        "Outstanding Student Achievement"
+        "Academic Excellence Awards",
+        "Project Recognition",
+        "Professional Achievement Recognition"
     ];
     
     renderExperience(sampleExperience);

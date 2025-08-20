@@ -11,162 +11,84 @@
   },
   "experience": [
     {
-      "company": "Current Company",
-      "role": "Senior Machine Learning Engineer",
+      "company": "Technology Company",
+      "role": "Machine Learning Engineer",
       "start": "2023",
       "end": "Present",
       "highlights": [
-        "Shipped production ML systems serving 100K+ daily users with 99.9% uptime",
-        "Reduced model inference latency by 60% through optimization and deployment strategies",
-        "Built end-to-end MLOps pipelines enabling rapid experimentation and continuous deployment",
-        "Led cross-functional team to deliver AI-powered features impacting core business metrics",
-        "Implemented A/B testing framework for ML models with statistical significance tracking"
+        "Developed and deployed ML models serving production traffic",
+        "Improved model performance through feature engineering and optimization",
+        "Built end-to-end MLOps pipelines for automated deployment",
+        "Collaborated with cross-functional teams on AI initiatives"
       ],
-      "stack": ["Python", "PyTorch", "Docker", "Kubernetes", "AWS", "MLflow", "PostgreSQL", "Redis"]
+      "stack": ["Python", "PyTorch", "Docker", "Kubernetes", "AWS", "MLflow"]
     },
     {
-      "company": "Previous Company",
-      "role": "Machine Learning Engineer",
+      "company": "Previous Organization",
+      "role": "Data Scientist",
       "start": "2021",
       "end": "2023",
       "highlights": [
-        "Developed NLP models for text classification achieving 95% accuracy on production data",
-        "Built recommendation system increasing user engagement by 30%",
-        "Designed and implemented feature engineering pipelines processing TB-scale datasets",
-        "Mentored junior engineers and established ML best practices across the team"
+        "Built predictive models for business optimization",
+        "Analyzed large datasets to extract actionable insights",
+        "Developed automated reporting and monitoring systems"
       ],
-      "stack": ["Python", "TensorFlow", "scikit-learn", "Apache Spark", "GCP", "BigQuery", "Airflow"]
-    },
-    {
-      "company": "Tech Startup",
-      "role": "Data Scientist",
-      "start": "2020",
-      "end": "2021",
-      "highlights": [
-        "Built predictive models for customer churn reducing attrition by 25%",
-        "Developed automated reporting dashboards used by executive team",
-        "Implemented data quality monitoring and alerting systems"
-      ],
-      "stack": ["Python", "Pandas", "scikit-learn", "SQL", "Tableau", "AWS"]
+      "stack": ["Python", "scikit-learn", "SQL", "Apache Spark", "Tableau"]
     }
   ],
   "projects": [
     {
-      "name": "Large Language Model Fine-tuning Framework",
-      "description": "End-to-end framework for fine-tuning transformer models on domain-specific datasets with automatic hyperparameter optimization and distributed training support.",
-      "impact": "Reduced model training time by 40% and improved task-specific performance by 15%",
+      "name": "ML Pipeline Automation",
+      "description": "End-to-end machine learning pipeline with automated training, validation, and deployment capabilities.",
+      "impact": "Reduced model deployment time from weeks to hours",
       "link": "https://github.com/Kalash0309",
-      "tech": ["PyTorch", "Transformers", "Ray", "MLflow", "Docker"]
+      "tech": ["Python", "MLflow", "Docker", "Kubernetes"]
     },
     {
-      "name": "Real-time Sentiment Analysis API",
-      "description": "Scalable microservice for real-time sentiment analysis supporting multiple languages with sub-100ms latency and 99.9% uptime.",
-      "impact": "Processes 1M+ requests daily with enterprise SLA compliance",
+      "name": "NLP Text Classification System",
+      "description": "Production-ready text classification system using transformer models for document processing.",
+      "impact": "Achieved 95% accuracy on business document classification",
       "link": "https://github.com/Kalash0309",
-      "tech": ["FastAPI", "PyTorch", "Redis", "Docker", "Kubernetes", "Prometheus"]
-    },
-    {
-      "name": "MLOps Pipeline Automation",
-      "description": "Complete MLOps solution with automated model training, validation, deployment, and monitoring using GitOps principles.",
-      "impact": "Reduced deployment time from weeks to hours, enabling daily model updates",
-      "link": "https://github.com/Kalash0309",
-      "tech": ["Kubeflow", "MLflow", "Argo Workflows", "Grafana", "Python"]
-    },
-    {
-      "name": "Computer Vision Quality Control System",
-      "description": "Automated quality inspection system using deep learning for manufacturing defect detection.",
-      "impact": "Achieved 99.2% accuracy, reducing manual inspection costs by 70%",
-      "link": null,
-      "tech": ["PyTorch", "OpenCV", "FastAPI", "PostgreSQL"]
+      "tech": ["PyTorch", "Transformers", "FastAPI", "PostgreSQL"]
     },
     {
       "name": "Time Series Forecasting Platform",
-      "description": "Multi-model forecasting platform supporting various time series algorithms with automated model selection and ensemble methods.",
-      "impact": "Improved forecast accuracy by 35% over baseline statistical methods",
-      "link": "https://github.com/Kalash0309",
-      "tech": ["Prophet", "LSTM", "XGBoost", "Streamlit", "Apache Airflow"]
-    },
-    {
-      "name": "Document Processing Intelligence",
-      "description": "NLP pipeline for automated document classification, entity extraction, and information retrieval from unstructured text.",
-      "impact": "Automated 80% of manual document processing workflows",
+      "description": "Scalable forecasting platform supporting multiple algorithms with automated model selection.",
+      "impact": "Improved forecast accuracy by 30% over baseline methods",
       "link": null,
-      "tech": ["spaCy", "BERT", "Elasticsearch", "Apache Kafka", "Python"]
+      "tech": ["Prophet", "LSTM", "Streamlit", "Apache Airflow"]
     }
   ],
   "skills": {
-    "languages": ["Python", "SQL", "R", "JavaScript", "Bash"],
-    "ml": ["PyTorch", "TensorFlow", "scikit-learn", "Transformers", "XGBoost", "LightGBM", "Prophet"],
-    "mlops": ["Docker", "Kubernetes", "MLflow", "Kubeflow", "Apache Airflow", "DVC", "Weights & Biases"],
-    "cloud": ["AWS", "GCP", "Azure", "AWS SageMaker", "Google Cloud AI Platform"],
-    "data": ["PostgreSQL", "MongoDB", "Redis", "Apache Spark", "Apache Kafka", "Elasticsearch"],
-    "viz": ["Matplotlib", "Seaborn", "Plotly", "Streamlit", "Tableau", "Grafana"],
-    "tools": ["Git", "Jupyter", "VS Code", "Linux", "Terraform", "Prometheus", "JIRA"]
+    "languages": ["Python", "SQL", "R", "JavaScript"],
+    "ml": ["PyTorch", "TensorFlow", "scikit-learn", "Transformers", "XGBoost"],
+    "mlops": ["Docker", "Kubernetes", "MLflow", "Apache Airflow", "DVC"],
+    "cloud": ["AWS", "GCP", "Azure"],
+    "data": ["PostgreSQL", "MongoDB", "Apache Spark", "Pandas", "NumPy"],
+    "viz": ["Matplotlib", "Seaborn", "Plotly", "Tableau", "Streamlit"]
   },
   "education": [
     {
-      "degree": "Master of Technology in Computer Science",
-      "school": "Indian Institute of Technology",
+      "degree": "Master's Degree in Technology/Engineering",
+      "school": "Indian Institute of Technology or Similar",
       "year": "2020",
-      "details": "Specialization in Machine Learning and Artificial Intelligence"
+      "details": "Specialization in relevant field"
     },
     {
-      "degree": "Bachelor of Technology in Computer Engineering",
-      "school": "University Name",
+      "degree": "Bachelor's Degree in Engineering",
+      "school": "University",
       "year": "2018",
-      "details": "First Class with Distinction"
+      "details": "Computer Science or related field"
     }
   ],
   "certifications": [
     "AWS Certified Machine Learning - Specialty",
-    "Google Cloud Professional Machine Learning Engineer",
-    "TensorFlow Developer Certificate",
-    "Deep Learning Specialization - Coursera"
+    "Professional Machine Learning Engineer",
+    "Deep Learning Specialization"
   ],
   "awards": [
-    "Best Innovation Award - ML Project Implementation (2023)",
-    "Outstanding Performance Award - Technical Excellence (2022)",
-    "Dean's List - Academic Excellence (2019-2020)",
-    "Runner-up - National ML Competition (2019)"
-  ],
-  "publications": [
-    {
-      "title": "Efficient Fine-tuning Strategies for Large Language Models",
-      "venue": "ICML Workshop on Efficient ML",
-      "year": "2023",
-      "link": "https://arxiv.org/abs/example"
-    },
-    {
-      "title": "Scalable Real-time Sentiment Analysis for Social Media",
-      "venue": "International Conference on Web Intelligence",
-      "year": "2022",
-      "link": null
-    }
-  ],
-  "talks": [
-    {
-      "title": "Building Production-Ready ML Systems",
-      "event": "ML Engineers Meetup",
-      "year": "2023",
-      "link": "https://example.com/talk"
-    },
-    {
-      "title": "MLOps Best Practices for Startups",
-      "event": "Tech Conference 2022",
-      "year": "2022",
-      "link": null
-    }
-  ],
-  "languages": [
-    {"name": "English", "level": "Native/Fluent"},
-    {"name": "Hindi", "level": "Native"},
-    {"name": "Gujarati", "level": "Native"}
-  ],
-  "interests": [
-    "Open Source Contributions",
-    "Technical Writing",
-    "Mentoring",
-    "AI Ethics",
-    "Sustainable Technology"
+    "Academic Excellence Awards",
+    "Project Recognition",
+    "Professional Achievement Recognition"
   ]
 } 

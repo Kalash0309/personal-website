@@ -5,8 +5,8 @@ A modern, responsive personal website showcasing Machine Learning engineering ex
 ## 🚀 Features
 
 - **Modern Design**: Clean, minimal interface with professional typography
+- **Dark Theme Default**: Starts in dark mode with toggle to light mode
 - **Responsive Layout**: Mobile-first design that works on all devices
-- **Dark/Light Mode**: Toggle with user preference persistence
 - **Performance Optimized**: Lighthouse-friendly with fast loading times
 - **SEO Ready**: Comprehensive meta tags, structured data, and sitemap
 - **Accessible**: WCAG AA compliant with proper semantic HTML
@@ -16,7 +16,7 @@ A modern, responsive personal website showcasing Machine Learning engineering ex
 ## 📁 Project Structure
 
 ```
-kalash-website/
+personal_website/
 ├── index.html              # Main HTML file
 ├── assets/
 │   ├── headshot.jpg        # Profile photo (placeholder)
@@ -42,7 +42,7 @@ kalash-website/
 - **JSON**: Structured data for easy content management
 
 ### Key Features
-- CSS Variables for consistent theming
+- CSS Variables for consistent theming (dark mode default)
 - Intersection Observer for lazy loading
 - localStorage for theme persistence
 - Debounced scroll events for performance
@@ -62,7 +62,8 @@ kalash-website/
 - **Primary**: #3b82f6 (Blue)
 - **Secondary**: #64748b (Gray)
 - **Accent**: #06b6d4 (Cyan)
-- **Background**: #ffffff / #0f172a (Light/Dark)
+- **Background Dark**: #0f172a / #1e293b (Default)
+- **Background Light**: #ffffff / #f8fafc (Toggled)
 
 ### Typography
 - System fonts (-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto)
@@ -108,6 +109,7 @@ kalash-website/
 ## 🧪 Testing Checklist
 
 ### Functionality Tests
+- [ ] Dark theme loads by default
 - [ ] Dark/light mode toggle works and persists
 - [ ] Navigation smooth scrolls to sections
 - [ ] Active navigation updates on scroll
@@ -153,10 +155,14 @@ testUtils.testDebounce();
 // Expected output: Debounce test: counter = 1 (should be 1)
 // Returns: true (after 150ms delay)
 
-// Test theme persistence
-localStorage.setItem('theme', 'dark');
+// Test theme persistence (should default to dark)
+localStorage.removeItem('theme');
 location.reload();
 // Expected: Page loads in dark mode
+
+// Test theme toggle
+document.getElementById('themeToggle').click();
+// Expected: Theme switches to light mode
 
 // Test smooth scrolling
 document.querySelector('a[href="#about"]').click();
@@ -248,6 +254,16 @@ To customize this website:
 2. **Styling**: Modify CSS variables in `css/styles.css`
 3. **Functionality**: Extend `js/main.js`
 4. **Assets**: Replace files in `assets/` folder
+
+## ⚙️ Theme Configuration
+
+The website defaults to dark mode. To change the default:
+
+1. In `js/main.js`, change line 15:
+   ```javascript
+   const currentTheme = localStorage.getItem('theme') || 'light';
+   ```
+2. In `css/styles.css`, swap the variable definitions in `:root` and `[data-theme="light"]`
 
 ## 📄 License
 
