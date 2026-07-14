@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Personal website for Kalash Kankaria with profile, resume, projects, and contact information."
+    >
+    <title>Kalash Kankaria | Personal Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <nav class="nav-shell" aria-label="Primary navigation">
+        <a class="brand" href="#top" aria-label="Kalash Kankaria home">
+          <span class="brand-mark">K</span>
+          <span>Kalash Kankaria</span>
+        </a>
+
+        <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-links" data-nav-links>
+          <a href="#about">About</a>
+          <a href="#education">Education</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section">
+        <div class="hero-copy">
+          <p class="eyebrow">Personal website</p>
+          <h1>Hi, I am Kalash Kankaria.</h1>
+          <p class="hero-text">
+            Data scientist and incoming Carnegie Mellon MSCF student focused on machine learning,
+            probabilistic modeling, large-scale data, and simulation-driven evaluation.
+          </p>
+          <div class="hero-actions" aria-label="Primary actions">
+            <a class="button button-primary" href="assets/resume.pdf" target="_blank" rel="noreferrer">
+              View Resume
+            </a>
+            <a class="button button-secondary" href="#contact">Contact Me</a>
+          </div>
+        </div>
+
+        <div class="profile-panel" aria-label="Profile summary">
+          <img
+            class="profile-image"
+            src="assets/profile.png"
+            alt="Portrait of Kalash Kankaria"
+          >
+          <div class="profile-details">
+            <p class="profile-name">Kalash Kankaria</p>
+            <p class="profile-role">Data Scientist II at Skan AI · Incoming MSCF at Carnegie Mellon</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section split-section" id="about">
+        <div>
+          <p class="eyebrow">About</p>
+          <h2>Building models and systems for real-world decision problems.</h2>
+        </div>
+        <div class="section-body">
+          <p>
+            I work at the intersection of machine learning, probabilistic modeling, and production
+            data systems. My recent work includes LLM-driven feature extraction, vector database-backed
+            RAG pipelines, multi-LLM inference orchestration, semantic clustering, and sequential
+            activity modeling for enterprise process intelligence.
+          </p>
+          <p>
+            I completed my B.Tech in Computer Science and Engineering from IIT Gandhinagar and will
+            join Carnegie Mellon University's Master of Science in Computational Finance program.
+            My technical interests include statistical learning, time-series modeling, hypothesis
+            testing, model validation, signal extraction, NLP, and simulation-based evaluation.
+          </p>
+        </div>
+      </section>
+
+      <section class="section" id="education">
+        <div class="section-heading">
+          <p class="eyebrow">Education</p>
+          <h2>Academic background</h2>
+        </div>
+        <div class="education-grid">
+          <article class="timeline-item">
+            <p class="item-meta">Pittsburgh, US · 2027</p>
+            <h3>Carnegie Mellon University, Tepper School of Business</h3>
+            <p>
+              Master of Science in Computational Finance. Upcoming coursework includes stochastic
+              calculus, options, investments, fixed income, and simulations for option pricing.
+            </p>
+            <p>
+              Squarepoint Fellow 2026-27 with a USD 20,000 scholarship. GRE Quant: 169/170.
+            </p>
+          </article>
+          <article class="timeline-item">
+            <p class="item-meta">Gandhinagar, IN · 2024</p>
+            <h3>Indian Institute of Technology Gandhinagar</h3>
+            <p>
+              B.Tech in Computer Science and Engineering with GPA 3.86/4. Coursework included
+              probability, statistics, linear algebra, calculus, algorithms, machine learning,
+              probabilistic ML, and NLP.
+            </p>
+            <p>
+              Dean's List in four semesters, NTSE Scholarship from the Government of India, and
+              Excellence Scholarship in Sports and Games.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="experience">
+        <div class="section-heading">
+          <p class="eyebrow">Experience</p>
+          <h2>Professional experience</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <p class="item-meta">Skan AI · Bangalore, IN · Mar 2026 - Jun 2026</p>
+            <h3>Data Scientist II</h3>
+            <p>
+              Redesigned an LLM-driven feature extraction engine with a vector database-backed RAG
+              pipeline, reducing LLM calls by 35% through a hyperparameter-tuned simulation framework.
+            </p>
+            <p>
+              Integrated a multi-LLM inference layer using LiteLLM, enabling unified access to local
+              Ollama models and external APIs through load-balanced routing and asynchronous
+              distributed inference.
+            </p>
+          </article>
+          <article class="timeline-item">
+            <p class="item-meta">Skan AI · Bangalore, IN · Jul 2024 - Feb 2026</p>
+            <h3>Data Scientist I</h3>
+            <p>
+              Modeled latent webpage structure from HTML DOM to separate layout signals from
+              instance-level noise, clustering and classifying screens with 87% accuracy.
+            </p>
+            <p>
+              Built workflows for hierarchical activity discovery, email feature extraction, process
+              classification, intent modeling, and transformer-based event grouping, including a
+              low-latency agentic workflow that achieved 94%+ accuracy and reduced observation gaps
+              by up to 50% for investment banking clients.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="section-heading">
+          <p class="eyebrow">Projects</p>
+          <h2>Selected work</h2>
+        </div>
+        <div class="project-grid project-grid-two">
+          <article class="project-card">
+            <div>
+              <p class="item-meta">Probabilistic ML · Aug 2023 - Apr 2024</p>
+              <h3>Bayesian Unlearning - Learning to Forget</h3>
+              <p>
+                Investigated selective data removal without retraining using closed-form updates and
+                Laplace, variational inference, and Markov Chain Monte Carlo approximations for
+                posteriors.
+              </p>
+              <p>
+                Achieved exact posterior recovery for linear regression after deleting up to 50% of
+                training data, and evaluated nonlinear classification unlearning with 75-79%
+                retraining-gap closure and 2.0-2.9x faster updates.
+              </p>
+            </div>
+            <a href="https://github.com/Kalash0309/Bayesian_Unlearning" target="_blank" rel="noreferrer">
+              View project
+            </a>
+          </article>
+          <article class="project-card">
+            <div>
+              <p class="item-meta">Comparative Modeling · Sep 2023 - Nov 2023</p>
+              <h3>Neural Networks vs Tree-Based Algorithms on Tabular Data</h3>
+              <p>
+                Benchmarked neural network architectures against XGBoost and other tree-based models
+                on tabular datasets, identifying regimes where each model class generalized better.
+              </p>
+              <p>
+                Applied feature rotation, smoothing, embeddings, augmentation, and regularization;
+                evaluated Hopular and TabPFN against tree-based baselines.
+              </p>
+            </div>
+            <span class="project-note">Report link needed</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="section split-section" id="skills">
+        <div>
+          <p class="eyebrow">Skills</p>
+          <h2>Tools and areas</h2>
+        </div>
+        <div class="skill-groups">
+          <div>
+            <h3>Languages</h3>
+            <ul class="tag-list">
+              <li>Python</li>
+              <li>C++</li>
+              <li>SQL</li>
+              <li>Bash</li>
+              <li>Linux/Unix</li>
+              <li>Docker</li>
+              <li>NumPy</li>
+              <li>Pandas</li>
+              <li>PyTorch</li>
+              <li>JAX</li>
+              <li>Scikit-Learn</li>
+              <li>SciPy</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Areas</h3>
+            <ul class="tag-list">
+              <li>Machine Learning</li>
+              <li>Probabilistic Modeling</li>
+              <li>Statistical Learning</li>
+              <li>Large-Scale Data</li>
+              <li>Time-Series</li>
+              <li>Hypothesis Testing</li>
+              <li>Model Validation</li>
+              <li>Signal Extraction</li>
+              <li>Feature Engineering</li>
+              <li>NLP</li>
+              <li>Simulation-Based Evaluation</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Certifications and leadership</h3>
+            <ul class="tag-list">
+              <li>Akuna Capital Options 101</li>
+              <li>Deep Learning Specialization</li>
+              <li>Teaching Assistant, Machine Learning ES335</li>
+              <li>Captain, Aquatics Varsity</li>
+              <li>Vice Captain, Basketball Varsity</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section split-section" id="additional">
+        <div>
+          <p class="eyebrow">Additional</p>
+          <h2>Awards and interests</h2>
+        </div>
+        <div class="section-body">
+          <p>
+            Gold Medal for Overall Outstanding Performance in Sports, Gold Medal for Outstanding
+            Performance in Aquatics, and Bronze Medal in Inter IIT Aquatics Meet 2023.
+          </p>
+          <p>
+            Interests include poker, chess, and Matiks.
+          </p>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Let us connect.</h2>
+          <p>Reach out by email or connect through GitHub and LinkedIn.</p>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:kkankari@andrew.cmu.edu">kkankari@andrew.cmu.edu</a>
+          <a href="tel:+919314027008">+91 9314027008</a>
+          <a href="https://www.linkedin.com/in/kalash-kankaria/" target="_blank" rel="noreferrer">
+            LinkedIn
+          </a>
+          <a href="https://github.com/Kalash0309" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; <span data-current-year></span> Kalash Kankaria. All rights reserved.</p>
+      <a href="#top">Back to top</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
